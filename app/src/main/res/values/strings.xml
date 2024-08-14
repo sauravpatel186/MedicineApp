@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MedicineRemainder</string>
+    <string name="pill_list">Pill List</string>
+</resources>
