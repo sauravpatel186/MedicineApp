@@ -43,7 +43,7 @@ class NotificationHelper(private val context: Context) {
 
         val notification = NotificationCompat.Builder(context, CHANNEL_ID)
             .setContentTitle("Pill Reminder")
-            .setContentText("Time to take your pill: $pillName")
+            .setContentText("Its Medicine Time: $pillName")
             .setSmallIcon(R.drawable.baseline_medication_24)
             .setContentIntent(pendingIntent)
             .setAutoCancel(true)
